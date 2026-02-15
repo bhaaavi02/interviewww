@@ -8,7 +8,7 @@ const monaSans = Mona_Sans({
   variable: "--font-mona-sans",
   subsets: ["latin"],
 });
-
+console.log(process.env.GOOGLE_GENERATIVE_AI_API_KEY);
 export const metadata: Metadata = {
   title: "PrepWise",
   description: "An AI-powered platform for preparing for mock interviews",
